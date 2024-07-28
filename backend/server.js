@@ -5,7 +5,7 @@ const dotenv = require("dotenv");
 const { ObjectId } = require("mongodb");
 
 dotenv.config();
-const MONGO_URL = process.env.MONGO_URL;
+// const MONGO_URL = process.env.MONGO_URL;
 
 const app = express();
 const port = 5000;
@@ -15,7 +15,7 @@ app.use(express.json());
 
 // Connect to MongoDB
 async function main() {
-  await mongoose.connect(MONGO_URL);
+  await mongoose.connect("mongodb://127.0.0.1:27017/adminpanels");
 }
 main().then(() => console.log("CONNECTED TO DATABASE"));
 
