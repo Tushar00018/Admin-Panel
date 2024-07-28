@@ -15,7 +15,7 @@ app.use(express.json());
 
 // Connect to MongoDB
 async function main() {
-  await mongoose.connect("mongodb://127.0.0.1:27017/adminpanels");
+  await mongoose.connect("mongodb://127.0.0.1:27017/adminpanel");
 }
 main().then(() => console.log("CONNECTED TO DATABASE"));
 
