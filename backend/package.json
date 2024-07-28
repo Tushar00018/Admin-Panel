@@ -4,8 +4,13 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+<<<<<<< HEAD
     "dev": "nodemon server.js",
     "build": "npm i"
+=======
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+>>>>>>> 703c9c0f79cd71fec4bf8ad4be60be59c0a923cd
   },
   "keywords": [],
   "author": "",
