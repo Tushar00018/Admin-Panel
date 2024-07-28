@@ -1,0 +1,41 @@
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+th {
+  font-weight: bolder;
+  border: 1px solid black;
+}
+table {
+  border: 1px solid black;
+  width: 90%;
+  margin-left: 50px;
+}
+.show-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+#edit-button {
+  background-color: green;
+  padding: 8px 10px 8px 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+#delete-button {
+  background-color: red;
+  padding: 8px 10px 8px 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.search-box {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.headings {
+  display: flex;
+  justify-content: space-around;
+}

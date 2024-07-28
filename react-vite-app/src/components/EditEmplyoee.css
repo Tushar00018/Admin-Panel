@@ -1,0 +1,21 @@
+.edit-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+#save-button {
+  margin-left: 10px;
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+#cancel-button {
+  margin-left: 10px;
+  background-color: rgb(255, 0, 0);
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

@@ -1,0 +1,22 @@
+.create-employee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+#create-button {
+  margin-left: 150px;
+  margin-bottom: 10px;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 10px;
+}
+select {
+  width: 350px;
+  height: 30px;
+  margin-bottom: 20px;
+}

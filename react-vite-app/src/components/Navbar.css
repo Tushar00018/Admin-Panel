@@ -1,0 +1,44 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+.nav-user {
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.nav-logout {
+  background-color: #333;
+  border: none;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
