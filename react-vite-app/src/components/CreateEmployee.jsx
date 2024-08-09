@@ -25,7 +25,7 @@ function CreateEmployee() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/employees",
+        "http://admin-panel-zjjm.onrender./api/employees",
         employee
       );
       navigate(response.data.redirect);

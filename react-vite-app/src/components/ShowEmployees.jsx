@@ -12,7 +12,9 @@ function ShowEmployees() {
   useEffect(() => {
     const fetchEmployees = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/employees");
+        const response = await axios.get(
+          "http://admin-panel-zjjm.onrender/api/employees"
+        );
         setEmployees(response.data);
         setFilteredEmployees(response.data);
       } catch (error) {
@@ -38,7 +40,7 @@ function ShowEmployees() {
   const handleDelete = async (id) => {
     try {
       const response = await axios.delete(
-        `http://localhost:5000/api/employees/${id}`
+        `http://admin-panel-zjjm.onrender/api/employees/${id}`
       );
       if (response.status === 200) {
         setEmployees(employees.filter((employee) => employee._id !== id));

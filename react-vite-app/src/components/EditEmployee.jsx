@@ -20,7 +20,7 @@ const EditEmployee = () => {
     const fetchEmployee = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:5000/api/employees/${id}`
+          `http://admin-panel-zjjm.onrender/api/employees/${id}`
         );
         setEditForm(response.data);
       } catch (error) {
@@ -40,7 +40,7 @@ const EditEmployee = () => {
     e.preventDefault();
     try {
       const response = await axios.put(
-        `http://localhost:5000/api/employees/${id}`,
+        `http://admin-panel-zjjm.onrender/api/employees/${id}`,
         { editForm }
       );
 
